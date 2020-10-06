@@ -12,7 +12,7 @@ Being in the root folder of the project, type this in your terminal.
 
 
 ```bash
-cp env-example .env
+cp .env.example .env
 git submodule add https://github.com/Laradock/laradock.git
 cd laradock
 cp env-example .env
