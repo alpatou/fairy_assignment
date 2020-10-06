@@ -63,6 +63,7 @@ If i was to continue this as a project, i would recommend to myself:
 - Many things should go to config files (or in a db). Base uri's, providers
 - I would ask more about the specs, some things about the ports were really confusing to me, but as i said i mismanaged everything. 
  - I would search more about Fractal package. But i decided to make my own attempt of a transformer. 
+ - Instead of handling just raw arrays, i would create Classes for Trip, Price etc. 
 
 
 I did not gave my best. But in every case, i really enjoyed the assignment. It boost my mind to think more clearly and to ask myself things that i do not have the "luxury" to do in my job position. The specs were really amazing, and helped me to think more abstractly!
