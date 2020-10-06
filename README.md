@@ -55,7 +55,7 @@ phpunit
 
 - At the first version of my code, when it was just working, i tried to test, but mocking units was a little trouble (like the cases in the interview i described). So i decided to invest in refactoring until my time expired. 
 - The same goes for error handling and exceptions. I saw that i needed more classy code to have more specific handling.
-- Mapping the resources to unique keys was challenging for me. I do not know if i had to store them on db or on something like redis. I have not seen this case before. 
+- Mapping the resources to unique keys was challenging for me. I do not know if i had to store them on db or on something like redis. I have not seen this case before. I suppose it has to do with the UUID thing.
 
 If i was to continue this as a project, i would recommend to myself:
 
