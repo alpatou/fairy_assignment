@@ -14,6 +14,7 @@ class BananaApiFetcherTest extends TestCase
     public function testExample()
     {
 
+        // these lines were destined to mock the guzzle response and test the tranformer. I never made it through
         $bananaTrips = [
             [
                 "tripId" =>1,
@@ -25,7 +26,6 @@ class BananaApiFetcherTest extends TestCase
                 "tripDuration"=> 40
             ]
         ];
-
 
         $bananaMock = Mockery::mock(BananaApiFetcher::class);
         $bananaMock->shouldReceive('getItiniraries')->andReturn($bananaTrips);

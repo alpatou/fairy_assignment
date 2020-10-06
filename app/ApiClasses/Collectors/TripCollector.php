@@ -21,8 +21,6 @@ class TripCollector {
         $this->fetcher = $fetcher;
     }
 
-
-
     public function collectTrips() {
         $allTrips = array();
         foreach($this->providers as $provider) {

@@ -14,6 +14,7 @@ class HavanaApiFetcherTest extends TestCase
      */
     public function testExample()
     {
+        // these lines were destined to mock the guzzle response and test the tranformer. I never made it through
         $havanaTrips = [
             "trips" => [
                 [

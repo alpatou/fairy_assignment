@@ -22,6 +22,3 @@ $router->get('itineraries', [
     'as' => 'itineraries', 'uses' => 'ItinerariesController@index'
 ]);
 
-$router->post('prices', [
-    'as' => 'prices', 'uses' => 'PricesController@index'
-]);

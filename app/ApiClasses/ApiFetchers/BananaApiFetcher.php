@@ -11,10 +11,6 @@ class BananaApiFetcher extends GenericFetcher {
     public function __construct()
     {
         parent::__construct();
-        $this->endpoints = [
-            'get' => 'https://fat3lw9sr6.execute-api.eu-west-3.amazonaws.com/prod/trips/havana',
-            'post' => 'https://fat3lw9sr6.execute-api.eu-west-3.amazonaws.com/prod/prices/havana'
-        ];
     }
 
     public function getItiniraries() {

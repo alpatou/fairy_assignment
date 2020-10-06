@@ -15,11 +15,6 @@ class TripCollectorTest extends TestCase
      */
     public function testExample()
     {
-
-
-        // $collector = new TripCollector();
-        // $result = $collector->collectTrips();
-        // $this->assertEquals(['itineraries' => array_merge(...$allTrips)]);
-
+        // lets make it risky to destroy the green
     }
 }

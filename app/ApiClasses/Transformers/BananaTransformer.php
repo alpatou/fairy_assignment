@@ -19,7 +19,6 @@ class BananaTransformer implements TransformerInterface {
 
         $pricePerPassengerTypeArray = array(); // just for consistency
 
-
         foreach($items as $item) {
             array_push($itineraries, [
                 "itineraryId"=> "",
