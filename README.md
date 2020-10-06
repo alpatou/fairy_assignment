@@ -34,7 +34,7 @@ http://localhost/itineraries
 
 We can use the phpunit test suite of Lumen. 
 
-Just get back to root folder and type
+Being inside the container, type
 
 ```bash
 phpunit
