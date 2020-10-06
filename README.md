@@ -24,6 +24,13 @@ To enter the workspace container
 docker-compose exec --user=laradock workspace bash
 ```
 
+And then:
+```bash
+composer install
+php artisan key:generate
+```
+
+
 
 You can hit the api by typing localhost in your browser, or Postman!
 
